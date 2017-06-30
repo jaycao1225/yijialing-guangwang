@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>aboutus</title>
+<style>
+  td{
+    cursor: pointer;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-size: 14px;
+  }
+</style>
+
+<script>
+	function toMain(){
+		window.location.href='main_1.html';
+	}
+	function toPro(){
+		window.location.href='pro.html';
+	}
+</script>
+</head>
+
+<body>
+	<!--head-->
+	<div id="head" style="width:100%; height:20%;top:0px">
+   	  <table width="100%" height="20%" style="border-bottom:solid 1px #EEEEEE;">
+        	<tr>
+            	<td width="50%" align="center" height="100%">
+                	<table>
+                    	<tr>
+                        	<!--icon-->
+                        	<td><img src="images/icon.png" style="float:left"/></td>
+                            <td style=" padding-left:10px">
+                            	<font color="#61D5D5" size="+2"><strong>Free护眼</strong></font><br /><br />
+        						<font color="#61D5D5"><strong>Protect your eyes everyday</strong></font>
+                            </td>
+                        </tr>
+                    </table>
+                	
+                </td>
+                
+                <td width="50%" height="100%">
+                	<!--选项卡-->
+                    <table width="100%" height="100%">
+                    	<tr align="center" height="100%">
+                        	<td width="25%" height="100%" onclick="toMain();"><font style="font-size:24px;"><strong>主页</strong></font></td>
+                            <td width="25%" height="100%" onclick="toPro();"><font style="font-size:24px" ><strong>产品介绍</strong></font></td>
+                            <td width="25%" height="100%" valign="middle" style="border-bottom:solid 5px #61D5D5;"><font style="font-size:24px; color:#61D5D5;"><strong>关于我们</strong></font></td>
+                            <td width="25%" height="100%"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    
+    <!--content-->
+    <div class="content" id="tab_c" style="height:80%; padding-top:4%; padding-bottom:160px">
+    	<!--关于我们-->
+ 		<div pro="about" class="hide" align="center">
+        	<img src="images/a_us.png" /><br />
+            <!--文字介绍-->
+            <div style="margin-top:30px; margin-bottom:30px">
+            	<font size="+2">深圳壹加零网络科技有限公司成立于2014年11月11日,专注于互联网研发销售与健康领域</font></br></br>
+           		<font size="+2">"Free护眼"是一款智能护眼产品</font></br></br>
+            	<font size="+2">多种场景模式可供选择,夜间模式自动调节,过滤蓝光;
+                		时刻守护您的眼健康</font><br />
+            </div>
+            
+            <!--二维码-->
+            <div >
+            
+                <table width="40%" >
+                    <tr align="center">
+                        <td><img src="images/wechat.png" /></td>
+                        <td><img src="images/app_link.png" /></td>
+                    </tr>
+                    <tr align="center">
+                        <td><p style=" color:#343434;font-size: 16px;">扫描关注公众号</p></td>
+                        <td><p style=" color:#343434;font-size: 16px;">扫描下载app</p></td>
+                    </tr>
+                </table>
+           
+            </div>
+         </div>
+     </div>
+    
+    <!--foot-->
+     <div id="foot" style="width:100%; height:160px; bottom:0px; background:#282828">
+    	<!--邮箱-电话-地址-->
+		<div style="white-space:inherit;color:#FFF;" align="center">
+        	<br />
+        	<table style="width:70%">
+            	<tr>
+                	<td style="width:28%; vertical-align:central">
+                    	<table>
+                        	<tr>
+                            	<td><img src="images/mail.png"/></td>
+                                <td style="padding-left:10px"><font color="#838383" size="+1">yijialing@ozmobi.com</font></td>
+                            </tr>
+                        </table>
+                    	
+                    </td>
+                    <td style="width:32%" align="center">
+                    	<table>
+                        	<tr>
+                            	<td><img src="images/phonenum.png" /></td>
+                                <td style="padding-left:10px"><font color="#838383" size="+1">15989342348</font></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="width:40%" align="right">
+                    	<table>
+                        	<tr>
+                            	<td><img src="images/address.png" /></td>
+                                <td style="padding-left:10px"><font color="#838383" size="+1">深圳市南山高新园高新南一道13号赋安大厦B座1009</font></td>
+                            </tr>
+                        </table></td>
+                </tr>
+            </table>
+    	</div>
+    	<!--分割线-->
+       <div style="width: 70%;margin: 20px auto;height: 1px;background:#fff"></div>
+       <!--版权-->
+       <div align="center" style="color:#FFF">
+    		<p style=" font-family:'微软雅黑', Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei',Arial, sans-serif; font-size:14px; color:#838383">2017 壹加零 All rights reserved 粤ICP备:0904789</p>
+    	</div>
+    </div>
+</body>
+</html>
